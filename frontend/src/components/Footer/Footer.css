@@ -1,0 +1,30 @@
+.footer
+{
+	background-color: #1d1f22;
+}
+.footer h5
+{
+	font-weight: 400;
+	margin-bottom: 50px;
+    color: grey;
+}
+.footer_icons .icon1
+{
+	color: whitesmoke;
+	font-size: 25px;
+	margin: 0px 5px;
+	cursor: pointer;
+    transition: all 0.3s;
+}
+.footer_icons .icon1:hover
+{
+	color: gray;
+}
+.footer .copyright
+{
+    border-top: 2px solid grey;
+}
+.footer .copyright p
+{
+    color: grey;
+}

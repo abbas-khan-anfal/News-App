@@ -1,0 +1,12 @@
+.contactSection
+{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contactSection .infoCol h2
+{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 20px;
+}

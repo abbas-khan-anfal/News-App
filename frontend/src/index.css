@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Global Styles */
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; 
+}
+.sectionTitle
+{
+  background-color: #000000;
+}
+.sectionTitle h2
+{
+  font-size: 25px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+label
+{
+  font-size: 15px;
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.inputField,.txtAreaFiled
+{
+  background-color: #1d1f22;
+  border: none;
+  outline: 2px solid #3c3f44;
+  color: whitesmoke !important;
+}
+.inputField:focus,.txtAreaFiled:focus
+{
+  background-color: #1d1f22;
+  outline: 2px solid gray;
+}
+.siteBtn
+{
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.siteBtn.editBtn
+{
+  background-color: #4CAF50;
+  color: whitesmoke;
+}
+.siteBtn.deleteBtn
+{
+  background-color: #f44336;
+  color: whitesmoke;
+}
+
+
+.pagination
+{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0px;
+}
+/* Styles for disabled pagination */
+.page-item.disabled .page-link {
+  background-color: grey;  /* Set disabled background for the button */
+  color: lightgrey !important;        /* Set disabled text color */
+  pointer-events: none;               /* Prevent clicks */
+  cursor: not-allowed;              /* Show not-allowed cursor */
+}
+
+.pagination .page-link
+{
+  background-color: #1d1f22;
+  color: whitesmoke;
+}
+.pagination .page-item.active .page-link {
+  background-color: whitesmoke !important;
+  border-color: whitesmoke !important;
+  color: #000000;
+  font-weight: 500;
+}
+
+
+/* // dashboard */
+.tableContainer thead
+{
+  color: whitesmoke;
+  background-color: #000000;
+}
+.tableContainer tbody
+{
+  color: whitesmoke;
+  background-color: #3c3f44;
+}

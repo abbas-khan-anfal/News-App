@@ -1,0 +1,30 @@
+.DashBoardHome
+{
+
+}
+.DashBoardHome .card
+{
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.DashBoardHome .card:hover
+{
+    border: 1px solid gray;
+}
+.DashBoardHome .card i
+{
+    color: gray;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.DashBoardHome .card h3
+{
+    color: whitesmoke;
+}
+.DashBoardHome .card span
+{
+    color: grey;
+}

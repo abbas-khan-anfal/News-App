@@ -1,0 +1,40 @@
+.profileCont
+{
+
+}
+.profileCont .profileInfo
+{
+    background-color: #000000;
+    border-radius: 10px;
+}
+.profileCont .profileInfo .imgUsername
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.profileCont img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    margin-right: 10px;
+}
+.profileCont h3
+{
+    font-size: 25px;
+    color: gray;
+}
+.profileCont h5
+{
+    font-size: 19px;
+    color: gray;
+    margin-top: 10px;
+}
+.profileCont h5 span
+{
+    font-size: 17px;
+    color: whitesmoke;
+}

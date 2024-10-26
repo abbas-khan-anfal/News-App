@@ -1,0 +1,163 @@
+/* .dashboard
+{
+
+} */
+.dashboard aside
+{
+    background-color: #000000;
+    height: 100vh;
+    width: 18%;
+    float: left;
+    padding: 10px;
+    overflow-y: auto;
+}
+.dashboard .dashLogo
+{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.dashboard aside ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+.dashboard aside ul li
+{
+    display: block;
+}
+.dashboard aside ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    display: block;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dashboard aside ul li a:hover
+{
+    background-color: #1d1f22;
+}
+.dashboard aside ul li a.active
+{
+    background-color: #1d1f22;
+}
+.dashboard aside ul li i
+{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.dashboard section
+{
+    background-color: #1d1f22;
+    width: 82%;
+    height: 100vh;
+    float: left;
+    overflow-y: auto;
+}
+.dashboard section header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: #000000;
+    padding: 0px 20px;
+    font-style: italic;
+}
+.dashboard section header h5
+{
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+}
+.dashboard section header .dashNavOpnBtn, .dashNavCloseBtn
+{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #1d1f22;
+    border: none;
+    color: whitesmoke;
+    display: none;
+}
+.dashNavCloseBtn
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.dashboard section .dropDownBtn
+{
+    border-radius: 50px;
+    border: 2px solid grey;
+    background-color: #1D1F22;
+    color: whitesmoke;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard section .dropdown-menu
+{
+    background-color: #000000;
+    border: 1px solid grey;
+}
+.dashboard section .dropdown-menu button
+{
+    color: whitesmoke;
+}
+.dashboard section .dropdown-menu button:hover
+{
+    background-color: #1d1f22;
+}
+
+/* media query */
+@media (max-width: 992px)
+{
+    .dashboard aside
+    {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        z-index: 1;
+        transition: all 0.4s;
+    }
+    .dashboard aside.show
+    {
+        left: 0;
+    }
+    .dashboard section
+    {
+        background-color: #1d1f22;
+        width: 100%;
+        height: 100vh;
+        float: left;
+    }
+    .dashboard section header .dashNavOpnBtn, .dashNavCloseBtn
+    {
+        display: inline-block;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:567px)
+{
+    .dashboard aside
+    {
+        width: 80%;
+    }
+}
+@media only screen and (min-width:568px) and (max-width:992px)
+{
+    .dashboard aside
+    {
+        width: 30%;
+    }
+}

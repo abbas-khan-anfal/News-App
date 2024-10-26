@@ -1,0 +1,50 @@
+.postSection
+{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.postSection .lgCard img
+{
+    height: 250px;
+    width: 100%;
+}
+.postSection .smCard img
+{
+    height: 150px;
+    width: 100%;
+}
+.postSection .card
+{
+    background-color: #1d1f22;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.postSection .card:hover
+{
+    border: 2px solid whitesmoke;
+}
+.postSection .card img
+{
+    border-radius: 10px;
+}
+.postSection .card-title
+{
+    color: whitesmoke;
+}
+.postSection .card-text
+{
+    color: gray;
+}
+.postSection .card-text a
+{
+    background-color: #1d1f22;
+    color: rgb(183, 183, 183);
+    border: none;
+    text-decoration: underline;
+    margin-left: 5px;
+    font-size: 15px;
+    font-style: italic;
+}

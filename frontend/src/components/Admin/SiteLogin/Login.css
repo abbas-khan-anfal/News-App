@@ -1,0 +1,14 @@
+.adminLogin
+{
+    height: 100vh;
+    background-color: #000000;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.loginTitle
+{
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: whitesmoke;
+}
