@@ -66,6 +66,4 @@ To fully access and use the application, including the admin dashboard, ensure t
    - Add user entries to these databases as necessary for testing and to ensure full access to the dashboard and other features.
 
 By completing these steps, the application will be fully functional with all components, including the dashboard, ready for use.
-
-This version emphasizes the setup requirements for the entire application. Let me know if it’s good to go!
 ---
