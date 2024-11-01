@@ -52,8 +52,16 @@ To test this application on your machine, follow these steps:
    - Backend Admin URL: [http://localhost:3000/admin](http://localhost:3000/admin)
 
 ### 5. Testing the Admin Dashboard
-   - Use the following credentials to log in:
-     - **Email**: `khan@gmail.com`
-     - **Password**: `khan123`
 
+To access the admin dashboard, ensure the following steps are completed:
+
+1. **Database Setup**:
+   - Create the necessary databases in MongoDB using either the MongoDB Desktop GUI or an online service like MongoDB Atlas.
+   - Set up separate collections for different data types:
+     - **User Database**: For storing user information.
+     - **Post Database**: For handling post-related data.
+     - **Messages Database**: For storing messages.
+
+2. **User Creation**:
+   - Create users within these databases as needed to ensure the dashboard functions as expected.
 ---
