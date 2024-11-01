@@ -51,17 +51,21 @@ To test this application on your machine, follow these steps:
    - Frontend URL (for users): [http://localhost:3000](http://localhost:3000)
    - Backend Admin URL: [http://localhost:3000/admin](http://localhost:3000/admin)
 
-### 5. Testing the Admin Dashboard
+### 5. Testing the Application and Admin Dashboard
 
-To access the admin dashboard, ensure the following steps are completed:
+To fully access and use the application, including the admin dashboard, ensure the following steps are completed:
 
 1. **Database Setup**:
-   - Create the necessary databases in MongoDB using either the MongoDB Desktop GUI or an online service like MongoDB Atlas.
-   - Set up separate collections for different data types:
+   - Create the required databases in MongoDB using either the MongoDB Desktop GUI or an online service like MongoDB Atlas. This setup is essential for the application to function properly.
+   - Set up separate collections for the following data types:
      - **User Database**: For storing user information.
      - **Post Database**: For handling post-related data.
      - **Messages Database**: For storing messages.
 
 2. **User Creation**:
-   - Create users within these databases as needed to ensure the dashboard functions as expected.
+   - Add user entries to these databases as necessary for testing and to ensure full access to the dashboard and other features.
+
+By completing these steps, the application will be fully functional with all components, including the dashboard, ready for use.
+
+This version emphasizes the setup requirements for the entire application. Let me know if it’s good to go!
 ---
