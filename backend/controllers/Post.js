@@ -103,7 +103,7 @@ const deletePost = async (req, res, next) => {
     }
 }
 
-// Function to get post for update
+// Function to show post for update
 const showPostForUpdate = async (req, res, next) => {
     try
     {
@@ -210,7 +210,7 @@ const getAllPostsForBlog = async (req, res, next) => {
     }
 }
 
-// Function to search post
+// Function for searching post
 const searchPosts = async (req, res, next) => {
     try
     {
@@ -239,7 +239,7 @@ const searchPosts = async (req, res, next) => {
 
 
 
-// Function to get clicked post
+// Function for getting clicked post
 const clickedPostHandler = async (req, res, next) => {
     try
     {
