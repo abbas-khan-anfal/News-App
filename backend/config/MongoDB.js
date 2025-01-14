@@ -1,9 +1,10 @@
 import mongoose from 'mongoose'
 
+
 const connectDB = async () => {
     try
     {
-        mongoose.connect('mongodb://localhost:27017/newsdb')
+        await mongoose.connect('mongodb+srv://mydemoforuser:demo500account25@cluster0.updwn.mongodb.net/?retryWrites=true');
         console.log('DB Connected Successfully')
     }
     catch(error)
